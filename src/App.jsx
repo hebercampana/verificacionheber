@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const SCRIPT_URL = process.env.REACT_APP_SCRIPT_URL;
+const SCRIPT_URL = '/.netlify/functions/sheets';
 const AI_URL = '/.netlify/functions/ai';
 
 const HEADERS = [
